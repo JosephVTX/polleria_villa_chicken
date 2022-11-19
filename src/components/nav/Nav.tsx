@@ -11,7 +11,7 @@ export const Nav = () => {
   return (
     <nav>
         <div className='w-full flex items-center px-2 justify-between'>
-            <img src="../img/logo.png" alt="Logo" />
+            <img src="./img/logo.png" alt="Logo" />
             <div className='flex gap-4 text-2xl text-gray-500 items-center'>
                 <SlUser/>
                 <AiOutlineMenu onClick={handleMenu}  className='border h-[30px] w-[30px] p-1 lg:hidden'/>
