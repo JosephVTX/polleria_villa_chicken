@@ -18,7 +18,7 @@ export const Nav = () => {
             </div>
             
         </div>
-        <ul className={`fixed w-full z-50 transition-transform duration-500 ${showMenu ? 'translate-x-0' : '-translate-x-full'}`}>
+        <ul className={`bg-white fixed w-full z-50 transition-transform duration-500 ${showMenu ? 'translate-x-0' : '-translate-x-full'}`}>
             <li><a className='block p-3' href="#">INICIO</a></li>
             <li><a className='block p-3 bg-primary  text-white' href="#">ORDENA AQUI</a></li>
             <li><a className='block p-3' href="#">PROMOCIONES</a></li>
