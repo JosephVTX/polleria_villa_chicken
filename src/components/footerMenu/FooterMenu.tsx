@@ -10,7 +10,7 @@ export const FooterMenu = () => {
             </li>
             <li>
                 <a className='flex flex-col items-center' href="#"><CiForkAndKnife className='text-[30px]'/> Carta</a>
-            </li>
+            </li>   
             <li> 
                 <a className='flex flex-col items-center' href="#"><AiOutlineStar className='text-[30px]'/> Promos</a>
             </li>
